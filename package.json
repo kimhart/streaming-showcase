@@ -1,0 +1,29 @@
+{
+  "name": "jw-prototype-create-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@design/ds-layout": "^1.0.6",
+    "@design/jw-design-library": "^5.2.3",
+    "@pui/react": "^4.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-json-pretty": "^2.1.0",
+    "react-scripts": "2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "buildCss": "less-watch-compiler --plugins clean-css --main-file=build.less src/less src/less"
+  },
+  "devDependencies": {
+    "less": "^3.0.2",
+    "less-watch-compiler": "^1.11.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,40 @@
+.source-table {
+  margin-right: 15px;
+  
+  &__headers {
+    .ds-flex(center);
+    padding: 15px;
+  }
+
+  &__body {
+    margin-right: 0;
+  }
+
+  h3, span {
+    min-width: 90px;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  &__row {
+    background: @ds-color-brand-abyss-dark;
+    border-radius: 4px;
+    padding: 10px 20px;
+    height: 54px;
+    margin-bottom: 5px;
+    .ds-flex(center);
+
+    span {
+      display: inline-block;
+      color: white;
+      font-weight: 300;
+      font-family: @ds-global-font-family-code;
+      &:first-of-type {
+        font-weight: 600;
+      }
+      &:last-of-type {
+        color: @light-blue;
+      }
+    }
+  }
+}
